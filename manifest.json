@@ -1,0 +1,16 @@
+{
+  "name": "Astro-Nomad",
+  "short_name": "AstroNomad",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "description": "A retro arcade game of survival.",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
