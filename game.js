@@ -132,7 +132,7 @@ startButton.addEventListener('click', startGame);
 restartButton.addEventListener('click', startGame);
 
 shareButton.addEventListener('click', () => {
-    const text = `I survived for a score of ${score} in #AstroNomad! Can you beat me?`;
+    const text = `Mi puntaje en ${score} in #salva_al_gato! Puedes mejorarlo?`;
     const gameUrl = window.location.href;
     const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(gameUrl)}`;
     window.open(twitterUrl, '_blank');
